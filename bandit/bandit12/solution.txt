@@ -1,0 +1,2 @@
+I bruteforced my way into a hexdump of a file that was compressed over and over again using different softwares.
+: ( shit was exhauting!

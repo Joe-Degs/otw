@@ -1,0 +1,5 @@
+There was no key from this one. i sshed into the server and used the command
+
+ssh -i sshkey.private bandit14@localhost
+
+i used a private key to log into the bansit14 without a password

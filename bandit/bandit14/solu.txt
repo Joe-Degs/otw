@@ -1,0 +1,11 @@
+I used nc to log into localhost on port 30000. After i found the flag for bandit14
+on the server i used the ssh private key to log into.
+
+the key was found in the directory 
+/etc/bandit_pass/bandit14
+
+and i used this command to get the password for bandit15.
+cat /etc/bandit_pass/bandit14 | nc localhost 30000
+
+the flag for bandit14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e

@@ -1,0 +1,6 @@
+Find a file with size 1033 bytes in an array of directories. the file is human
+readable and is not an executable and weighs 1033 bytes.
+
+command for searching through directories
+================================================
+find ./*/ -type f -size 1033c -exec ls -lh {} \;
