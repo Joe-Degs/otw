@@ -1,0 +1,4 @@
+this challenges lesson is that commands can be issued from the ssh 
+login and they will execute when login is sucessful.
+
+ex. ssh bandit18@localhost ls -lah

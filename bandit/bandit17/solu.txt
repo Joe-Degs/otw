@@ -1,0 +1,10 @@
+The server was probed for open ports that communicated over ssl,
+using `nmap localhost -p 31000-32000`
+
+the ports were then tested one after the other for the compatible
+ones.
+
+openssl s_client -connect localhost:port -ign_eof
+
+the output was a pem rsa private key for loging into the next
+level using ssh
