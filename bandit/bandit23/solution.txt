@@ -1,0 +1,3 @@
+This solution was just like the previous one and involved reading 
+a cronjob and then auditing a script to check what it does revealing
+the password to the next level

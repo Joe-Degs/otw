@@ -1,0 +1,10 @@
+this way i solved this was a little bit easy because i expected
+it to be tough lol, so when i got the key it i didnt take and
+went on looking for it else where lol :).
+
+This solution involved reading from the crontabs and and accessing
+the cron.d directory.
+i read the cronfile for the user which led to me finding a 
+script that contained the password.
+
+ 

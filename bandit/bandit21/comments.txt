@@ -1,0 +1,15 @@
+This lesson was a little bit tough for me because this is my first time 
+dealing with ports and connections on this level.
+the challenge had an setuid ELF executable executable file thats connects
+to any port given to it as an argument, then reads
+input from the server which is supposed to be the password of the current 
+level, matches it up with what is has and gives the password for the next
+level if the match resolves to true.
+
+I used the following commands.
+for the server that was listening on the port 2010
+ `nc -lv -p 2010` with the arguments
+ `fidfhji3948dfe9r7d8f7sdf87df7df8dfd7f8d`
+
+then the client was
+`./suconnect 2010`
